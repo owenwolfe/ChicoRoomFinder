@@ -539,7 +539,6 @@ For example, this example will be in ~/Downloads.
           statusEl.textContent = `Done. Cost=${gScore.get(currentGoalId).toFixed(2)} | ${routeText}`;
           renderFast(current, finalPath);
 
-          await animatePath(finalPath);
           return;
         }
 
